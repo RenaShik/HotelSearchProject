@@ -1,4 +1,5 @@
 ///<reference types = "Cypress"/>
+
 describe('The sanity test suite for travel site', () => {
     it('navigate to the main page', () => {
         cy.visit('http://localhost:3000')
